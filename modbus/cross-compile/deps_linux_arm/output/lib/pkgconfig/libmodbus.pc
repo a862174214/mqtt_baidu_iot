@@ -1,0 +1,10 @@
+prefix=/home/mq/learn/baidu_iot/iot-edge-sdk-for-iot-parser-master/modbus/cross-compile/deps_linux_arm/output
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: modbus
+Description: Modbus library
+Version: 3.1.4
+Libs: -L${libdir} -lmodbus
+Cflags: -I${includedir}/modbus

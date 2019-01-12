@@ -1,0 +1,11 @@
+prefix=/home/mq/learn/baidu_iot/iot-edge-sdk-for-iot-parser-master/modbus/withssl/deps_linux_x86/output
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libcjson
+Version: 1.5.9
+Description: Ultralightweight JSON parser in ANSI C
+URL: https://github.com/DaveGamble/cJSON
+Libs: -L${libdir} -lcjson
+Libs.Private: -lm
+Cflags: -I${includedir}

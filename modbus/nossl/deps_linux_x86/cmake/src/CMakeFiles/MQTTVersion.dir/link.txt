@@ -1,0 +1,1 @@
+/usr/bin/gcc     CMakeFiles/MQTTVersion.dir/MQTTVersion.c.o  -o MQTTVersion -rdynamic libpaho-mqtt3a.so.1.2.0 libpaho-mqtt3c.so.1.2.0 -lc -ldl -lpthread -Wl,-rpath,/home/mq/learn/baidu_iot/iot-edge-sdk-for-iot-parser-master/modbus/nossl/deps_linux_x86/cmake/src: 

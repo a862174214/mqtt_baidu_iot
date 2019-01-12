@@ -1,0 +1,1 @@
+/home/mq/project/AM335x/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/arm-linux-gnueabihf-gcc     CMakeFiles/MQTTVersion.dir/MQTTVersion.c.o  -o MQTTVersion -rdynamic libpaho-mqtt3a.so.1.2.0 libpaho-mqtt3c.so.1.2.0 -lc -ldl -lpthread -Wl,-rpath,/home/mq/learn/baidu_iot/iot-edge-sdk-for-iot-parser-master/modbus/cross-compile/deps_linux_arm/cmake/src: 
